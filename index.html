@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom right, #ffe4f1, #ff4d88);
+            color: #3b2f3a;
+        }
+
+        /* HEADER */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: rgba(255, 77, 136, 0.9);
+            color: white;
+        }
+
+        /* 2x2 PICTURE (SMALLER VERSION) */
+        header img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 3px solid white;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        header p {
+            font-size: 16px;
+            opacity: 0.95;
+        }
+
+        /* CONTAINER */
+        .container {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        /* CARDS */
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+            border-left: 5px solid #ff4d88;
+            padding-left: 10px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(255, 77, 136, 0.9);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="p1.jpg" alt="2x2 Picture">
+
+        <h1>Jobelle H. Centro</h1>
+        <p>Aspiring IT Professional</p>
+    </header>
+
+    <div class="container">
+
+        <!-- ABOUT -->
+        <div class="card">
+            <h2>About Me</h2>
+            <p>
+                I am a Bachelor of Science in Information Technology student at
+                Our Lady of the Sacred Heart College of Guimba, Inc.
+                I am passionate about technology and I enjoy learning web development.
+            </p>
+        </div>
+
+        <!-- PERSONAL DETAILS -->
+        <div class="card">
+            <h2>Personal Details</h2>
+            <table>
+                <tr>
+                    <td><b>Full Name:</b></td>
+                    <td>Jobelle H. Centro</td>
+                </tr>
+                <tr>
+                    <td><b>Age:</b></td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td><b>Email:</b></td>
+                    <td>jobellehugo@gmail.com</td>
+                </tr>
+                <tr>
+                    <td><b>Address:</b></td>
+                    <td>Narvacan 1, Guimba, Nueva Ecija</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML – Beginner</li>
+                <li>CSS – Beginner</li>
+                <li>JavaScript – Beginner</li>
+            </ul>
+        </div>
+
+        <!-- INSPIRATION -->
+        <div class="card">
+            <h2>My Inspiration</h2>
+            <p>
+                I chose IT because I want to build systems and improve my technical skills.
+                Programming inspires me to create solutions that help people and improve everyday life.
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Jobelle Centro</p>
+    </footer>
+
+</body>
+</html>
